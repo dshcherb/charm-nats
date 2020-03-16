@@ -25,8 +25,12 @@ all units is possible to configure via the relevant config options.
 
 # Deploy
 
-Note: The charm currently depends on this to-be-merged PR https://github.com/canonical/operator/pull/109
-for working with network spaces.
+From the [Charm Store](https://jaas.ai/u/dmitriis/nats):
+
+```bash
+
+juju deploy cs:~dmitriis/nats-9
+```
 
 ```bash
 juju deploy --resource nats=<path-to-nats-snap-file> <nats-charm-dir>
